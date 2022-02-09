@@ -1,0 +1,4 @@
+.git
+*.pyc
+*.retry
+*.tar.gz

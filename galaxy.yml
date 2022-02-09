@@ -1,0 +1,25 @@
+namespace: deltabg
+name: general
+version: 1.0.0
+readme: README.md
+authors:
+- Nedelin Petkov <mlg@abv.bg>
+description: Delta Cloud Ltd. general collection
+license:
+- MIT
+license_file: 'LICENSE'
+tags: [ 'automation', 'linux', 'system' ]
+dependencies: {}
+repository: https://github.com/deltabg/ansible-collection-general
+documentation: https://github.com/deltabg/ansible-collection-general/tree/master/docs
+homepage: https://github.com/deltabg/ansible-collection-general
+issues: https://github.com/deltabg/ansible-collection-general/issues
+build_ignore: 
+- tests/
+- galaxy.yml
+- .git
+- .travis.yml
+- '*.pyc'
+- '*.retry'
+- '*.tar.gz'
+
